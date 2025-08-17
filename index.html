@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard UI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2><i class="fas fa-bars"></i> Dashboard</h2>
+      <ul>
+        <li><i class="fas fa-home"></i><b>Home</b></li>
+        <li><i class="fas fa-user"></i><b>Profile</b></li>
+        <li><i class="fas fa-envelope"></i><b>Messages</b></li>
+        <li><i class="fas fa-history"></i><b>History</b></li>
+        <li><i class="fas fa-tasks"></i><b>Tasks</b></li>
+        <li><i class="fas fa-users"></i><b>Communities</b></li>
+        <br /><br />
+        <li><i class="fas fa-cog"></i><b>Settings</b></li>
+        <li><i class="fas fa-question-circle"></i><b>Support</b></li>
+        <li><i class="fas fa-shield-alt"></i><b>Privacy</b></li>
+      </ul>
+    </div>
+
+    <div class="main-container">
+      <div class="top-bar">
+        <div class="top-left">
+          <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search for anything..." />
+          </div>
+          <div class="avatar-wrapper">
+            <img src="robot.png" alt="Morgan's Avatar" />
+          </div>
+          <div class="greeting-text">
+            <p>Hi there,</p>
+            <h1>Morgan Oakley <span>(@morgan)</span></h1>
+          </div>
+        </div>
+
+        <div class="top-right">
+          <div class="avatar-and-bell">
+            <div class="notification-bell">
+              <i class="fas fa-bell"></i>
+            </div>
+            <div class="small-avatar-wrapper">
+              <img src="robot.png" alt="User Avatar" class="small-avatar" />
+            </div>
+            <h4>Morgan Oakley</h4>
+          </div>
+          <div class="buttons-wrapper">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="left-content">
+        <div class="projects">
+          <h2>Your Projects</h2>
+          <div class="projects-grid">
+            <div class="card">
+              <h3>Super Cool Project</h3>
+              <p>Sed tempus ut lacus ut scelerisque...</p>
+              <div class="card-actions">
+                <i class="far fa-star"></i>
+                <i class="far fa-eye"></i>
+                <i class="fas fa-lightbulb"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Less Cool Project</h3>
+              <p>Nullam condimentum ipsum ut lectus...</p>
+              <div class="card-actions">
+                <i class="far fa-star"></i>
+                <i class="far fa-eye"></i>
+                <i class="fas fa-lightbulb"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Impossible App</h3>
+              <p>In hac habitasse platea dictumst...</p>
+              <div class="card-actions">
+                <i class="far fa-star"></i>
+                <i class="far fa-eye"></i>
+                <i class="fas fa-lightbulb"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Easy Peasy App</h3>
+              <p>Etiam cursus eros ac efficitur...</p>
+              <div class="card-actions">
+                <i class="far fa-star"></i>
+                <i class="far fa-eye"></i>
+                <i class="fas fa-lightbulb"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Ad Blocker</h3>
+              <p>Quisque eget rutrum nisl...</p>
+              <div class="card-actions">
+                <i class="far fa-star"></i>
+                <i class="far fa-eye"></i>
+                <i class="fas fa-lightbulb"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Money Maker</h3>
+              <p>Praesent convallis, libero quis...</p>
+              <div class="card-actions">
+                <i class="far fa-star"></i>
+                <i class="far fa-eye"></i>
+                <i class="fas fa-lightbulb"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-content">
+        <h2>Announcements</h2>
+        <div class="announcement">
+          <p>
+            <strong>Site Maintenance:</strong> Vestibulum condimentum tellus
+            lacus...
+          </p>
+          <p>
+            <strong>Community Share Day:</strong> Nam vel lectus tincidunt...
+          </p>
+          <p>
+            <strong>Updated Privacy Policy:</strong> Phasellus efficitur nisl...
+          </p>
+        </div>
+
+        <h2>Trending</h2>
+        <div class="trending">
+          <ul>
+            <li>
+              <i class="fas fa-user-circle"></i> @tegan – World Peace Builder
+            </li>
+            <li>
+              <i class="fas fa-user-circle"></i> @morgan – Super Cool Project
+            </li>
+            <li>
+              <i class="fas fa-user-circle"></i> @kendall – Life Changing App
+            </li>
+            <li><i class="fas fa-user-circle"></i> @alex – No Traffic App</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
